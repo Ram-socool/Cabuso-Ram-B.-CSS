@@ -153,3 +153,43 @@
    z-index: index 2;
    transition-delay: 0.01s;
 }
+
+/* SERVICE
+TIME CHECK 12:38 AM 4/10/2023 */
+
+#services {
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5%;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#services h2{
+    margin-top: 5%;
+    font-size: 30px;    
+}
+
+#services li{
+    background-color: rgb(255, 255, 255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 10%;
+    margin: 20px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+#services li:hover{
+    box-shadow: 0px 0px 3px rgb(0, 0, 0, 0.1);
+}
+
+#services li:first-child{
+    background-color: rgb(225, 68, 0, 0.942);
+}
+
+/* CABUSO RAM LOGAN B. BSIT1A */
